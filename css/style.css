@@ -12,3 +12,29 @@
 }
 
 /* fine common */
+
+
+/* header */
+
+header {
+    height: 70px;
+}
+
+/* fine header */
+
+
+/* debug */
+
+.debug .container {
+    height: 700px;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+.debug header {
+    background-color: pink;
+
+}
+
+
+/* fine debug */
