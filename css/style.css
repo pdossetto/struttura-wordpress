@@ -28,16 +28,26 @@
 
 /* header */
 
+header {
+    margin-bottom: 10px;
+}
+
 .menu {
     height: 70px;
+    margin-bottom: 10px;
 }
 
 .banner {
     height: 300px;
 }
 
+/* fine header */
+
+/* main */
+
 .col {
     float: left;
+    padding: 10px;
 }
 
 .col-left,
@@ -49,8 +59,14 @@
     width: calc((100% / 5) * 3);
 }
 
+/* fine main */
 
-/* fine header */
+/* footer */
+footer {
+    height: 30px ;
+}
+
+/* fine footer */
 
 
 /* debug */
@@ -72,6 +88,7 @@
 .debug .col {
     /*height: 100px;*/
     background-color: lightblue;
+    border: 1px solid
 }
 
 .debug .title {
@@ -79,7 +96,9 @@
     background-color: lightblue;
 }
 
-
+.debug footer {
+    background-color: purple;
+}
 
 
 /* fine debug */
