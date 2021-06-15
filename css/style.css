@@ -16,9 +16,14 @@
 
 /* header */
 
-header {
+.menu {
     height: 70px;
 }
+
+.banner {
+    height: 300px;
+}
+
 
 /* fine header */
 
@@ -31,10 +36,14 @@ header {
     border: 1px solid black;
 }
 
-.debug header {
+.debug .menu {
     background-color: pink;
-
 }
+
+.debug .banner {
+    background-color: yellow;
+}
+
 
 
 /* fine debug */
